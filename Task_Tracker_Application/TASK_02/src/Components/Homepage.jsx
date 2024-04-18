@@ -93,9 +93,9 @@ const Homepage = () => {
                         </div>
                       ) : (
                         <>
-                          <div className="md:flex sm:flex items-center">
+                          <div className="md:flex sm:flex items-center sm:gap-x-4">
                             <div className="lg:flex lg:flex-row md:flex md:flex-row sm:flex sm:place-content-center sm:flex-row flex place-content-center">
-                              <div className="lg:flex md:flex sm:flex flex ">
+                              <div className="lg:flex md:flex sm:flex flex gap-x-4  ">
                                 {/* 1.Mark as complete */}
                                 <input
                                   type="checkbox"
